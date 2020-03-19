@@ -515,6 +515,18 @@
                 </dependency>
             </dependencies>
         </profile>
+
+        <profile>
+            <id>sonar</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <properties>
+                <sonar.host.url>https://sonarcloud.io/</sonar.host.url>
+                <sonar.organization>Vivek5292</sonar.organization>
+                <sonar.login>39b8e67b8aa12989f53def6c98496feac5a51b89</sonar.login>
+            </properties>
+        </profile>
    </profiles>
 
     <url>demopetclinic</url>
