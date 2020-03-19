@@ -26,6 +26,10 @@
         <webjars-jquery-ui.version>1.11.4</webjars-jquery-ui.version>
         <webjars-jquery.version>2.2.4</webjars-jquery.version>
         <wro4j.version>1.8.0</wro4j.version>
+        <sonar.projectKey>Vivek5292_-Maven-Project</sonar.projectKey>
+        <sonar.organization>vivek5292</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+        <sonar.login>c8b2b74d309f5a17fa13d46f7b0741cb83587390</sonar.login>
 
 
         <!-- Java EE / Java SE dependencies -->
