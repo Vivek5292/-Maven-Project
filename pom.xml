@@ -255,16 +255,18 @@
         </dependency>
     </dependencies>
 
-	<repository>
-		<id>Maven-Artifacts</id>
-		<url>Maven-Project/_packaging/Maven-Artifacts/maven/v1</url>
-		<releases>
-			<enabled>true</enabled>
-		</releases>
-		<snapshots>
-			<enabled>true</enabled>
-		</snapshots>
-	</repository>
+	<repositories>
+		<repository>
+			<id>Maven-Artifacts</id>
+			<url>Maven-Project/_packaging/Maven-Artifacts/maven/v1</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
 	
     <!-- Maven plugin versions are mentioned in order to guarantee the build reproducibility in the long term -->
     <build>
